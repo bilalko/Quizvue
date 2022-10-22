@@ -4,7 +4,7 @@ import Quiz1 from '@/components/Quiz1'
 import Quiz2 from '@/components/Quiz2'
 import Quiz3 from '@/components/Quiz3'
 import Quiz4 from '@/components/Quiz4'
-import ResultatQuiz from '@/components/ResultatQuiz'
+import resultatQuiz from '@/components/resultatQuiz'
 
 Vue.use(Router)
 
@@ -31,9 +31,9 @@ export default new Router({
       component: Quiz4
     },
     {
-      path: '/ResultatQuiz',
-      name: 'ResultatQuiz',
-      component: ResultatQuiz
+      path: '/resultatQuiz',
+      name: 'resultatQuiz',
+      component: resultatQuiz
     }
   ]
 })
