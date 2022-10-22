@@ -1,0 +1,120 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+ }
+
+#image1 {
+    z-index: 100;
+    margin-left: 35px;
+}
+
+h1 {
+   color: #FFFFFF;
+}
+
+#question1 {
+    background-color: white;
+}
+
+#question2 {
+    background-color: white;
+}
+
+#question3 {
+    background-color: white;
+}
+
+#question2 {
+    background-color: white;
+}
+
+
+
+body {
+    height: 100vh;
+    background-image: url(background.png); 
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+
+}
+
+h2{
+    text-align: center;
+    color: rgba(96, 102, 208, 0.7);
+}
+
+p{
+    cursor: pointer;
+    margin: 30px;
+    border:  1px rgba(96, 102, 208, 0.7) solid;
+    border-radius: 1vh;
+    padding: 15px;
+    color: #6066D0;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    display: flex;
+    z-index: 40px;
+    color: black;
+    text-decoration: underline;
+}
+
+#boutton{
+    width: 110px;
+    display: none;
+    position: relative;
+    left: 460px;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+
+
+section{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 2vh;
+    width: 600px;
+    height: 600px;
+}
