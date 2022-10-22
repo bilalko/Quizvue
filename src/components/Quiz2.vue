@@ -1,4 +1,4 @@
-<style src="./Quiz.css"></style>
+<style scoped src="./Quiz.css"></style>
 
 <template>
     <body>
